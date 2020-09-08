@@ -73,7 +73,6 @@ def manhattan(seq):
                         result += (abs(m - j) + abs(l - i))
                         break
     return result
-
 ###############################################################################################################
 ## walking distance metric seen here --- > https://rosettacode.org/wiki/15_puzzle_solver
 def encode_cfg(cfg, n):
@@ -351,7 +350,7 @@ def Solve(heuristic_name,algorithm_name, board):
     return (board,len(soln)-1,str(round(after - before,3)),numpos,heuristic_name,algorithm_name,moves_to_solve)
 
 if __name__ == "__main__":
-
+    print(manhattan([1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,15]))
     # with open("data/3x3_astar_mh.txt","w") as f:
     #     f.write("Board  NumMoves  Time  Positions  Heuristic  Algorithm  Moves\n")
     #     index = 0
