@@ -7,3 +7,7 @@ ToDo:
 3. add misplaced tiles heuristic.
 4. make solution solver into class
 5. efficiency/runtime with ctypes?
+
+## How to Run:
+1. Install python 3.7 or later
+2. $ python3 Npuzzle.py
